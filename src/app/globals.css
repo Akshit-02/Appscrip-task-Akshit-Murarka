@@ -1,0 +1,11 @@
+:root {
+  --red-color: rgba(235, 76, 107, 1);
+  --black-color: rgba(0, 0, 0, 1);
+  --white-color: rgba(255, 255, 255, 1);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}

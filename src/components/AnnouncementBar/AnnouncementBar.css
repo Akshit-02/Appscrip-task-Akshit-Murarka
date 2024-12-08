@@ -1,0 +1,35 @@
+.announcement-bar {
+  height: 32px;
+  background-color: var(--black-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 274px;
+}
+.announcement {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--red-color);
+  font-family: var(--font-simplonNormRegular);
+  text-wrap: nowrap;
+}
+
+@media screen and (max-width: 1025px) {
+  .announcement-bar {
+    height: 24px;
+    padding: 8px 8px;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .announcement-bar {
+    height: 24px;
+    padding: 8px 8px;
+    justify-content: center;
+  }
+  .announcement:nth-child(n + 2) {
+    display: none;
+  }
+}

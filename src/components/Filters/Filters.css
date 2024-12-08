@@ -1,0 +1,54 @@
+.filter-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  border-bottom: 1px solid rgba(229, 229, 229, 1);
+}
+.filter-title {
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(37, 32, 32, 1);
+  font-family: var(--font-simplonNormBold);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.filter-options {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-bottom: 24px;
+}
+.select-all {
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(37, 32, 32, 1);
+  font-family: var(--font-simplonNormRegular);
+  cursor: pointer;
+}
+.unselect-all {
+  color: rgba(191, 200, 205, 1);
+  font-size: 16px;
+  line-height: 20px;
+  font-family: var(--font-simplonNormRegular);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.sub-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(37, 32, 32, 1);
+  font-family: var(--font-simplonNormRegular);
+  cursor: pointer;
+}
+.sub-option input[type="checkbox"] {
+  cursor: pointer;
+}
+.arrow-up {
+  transform: rotate(180deg);
+}
